@@ -2,7 +2,7 @@
 // more files in
 //   bitquery-blockchain-dataset/
 // ├── tron/
-module.exports = [
+
   {
     "BalanceUpdate_Address":"TVy95wrbDgQ8NA3XT8qKqwC6YBsFTPHtFF",
     "BalanceUpdate_AmountInUSD":-30.3530981692,
@@ -34,4 +34,4 @@ module.exports = [
     "Contract_Address":"TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
     "Contract_Type":"TriggerSmartContract"
   }
-];
+
