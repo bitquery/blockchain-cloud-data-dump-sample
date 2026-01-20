@@ -2,7 +2,7 @@
 // more files in
 //   bitquery-blockchain-dataset/
 // ├── tron/
-module.exports = [
+
   {
     "Block_Number":78861100,
     "Block_Time":1767246213,
@@ -41,4 +41,4 @@ module.exports = [
     "Contract_Type":"TriggerSmartContract",
     "Contract_TypeUrl":"type.googleapis.com\/protocol.TriggerSmartContract"
   }
-];
+
