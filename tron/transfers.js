@@ -1,0 +1,51 @@
+// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/tron/transfers/78861100_78861149.parquet
+// more files in
+//   bitquery-blockchain-dataset/
+// ├── tron/
+module.exports = [
+  {
+    "Block_Number":78861100,
+    "Block_Time":1767246213,
+    "Block_Date":1767225600000,
+    "Transfer_Amount":"30.401259",
+    "Transfer_AmountInUSD":30.3530981692,
+    "Transfer_CallIndex":0,
+    "Transfer_Currency_AssetId":"",
+    "Transfer_Currency_Decimals":6,
+    "Transfer_Currency_Delegated":"false",
+    "Transfer_Currency_DelegatedTo":"",
+    "Transfer_Currency_Fungible":"true",
+    "Transfer_Currency_Name":"Tether USD",
+    "Transfer_Currency_HasURI":"false",
+    "Transfer_Currency_Native":"false",
+    "Transfer_Currency_Symbol":"USDT",
+    "Transfer_Currency_SmartContract":"TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+    "Transfer_Currency_ProtocolName":"trc20",
+    "Transfer_TransactionIndex":0,
+    "Transfer_URI":"",
+    "Transfer_Success":"true",
+    "Transfer_Sender":"TVy95wrbDgQ8NA3XT8qKqwC6YBsFTPHtFF",
+    "Transfer_Receiver":"TDii6vao7xyWg2rKPbCPWVRpSmne8xcqYx",
+    "Transfer_LogIndex":0,
+    "Transfer_Index":0,
+    "Transfer_Data":"",
+    "Transfer_Id":"0",
+    "Witness_Signature":"59730c777fac4ee3a4f25edd0b04edaf87c76728e3426b4d352bbde8fa5618fe070fdcba726e55c46e1ea2d2ef00730e1e2cae492e8a05b04429d9e76b72af0700",
+    "Witness_Address":"TDpt9adA6QidL1B1sy3D8NC717C6L5JxFo",
+    "TransactionStatus_Success":"true",
+    "Transaction_Fee":"0.000000",
+    "Transaction_FeePayer":"TVy95wrbDgQ8NA3XT8qKqwC6YBsFTPHtFF",
+    "Transaction_Hash":"e122cba603b48ee234807f91859a04dbc4728f1b215d5c9c05385733bca674bc",
+    "Transaction_FeeInUSD":0.0,
+    "Log_Signature_Name":"Transfer",
+    "Log_Signature_Signature":"Transfer(address,address,uint256)",
+    "Log_Signature_Type":"false",
+    "Log_Signature_SignatureHash":"ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Contract_Address":"TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+    "Contract_Type":"TriggerSmartContract",
+    "Call_Signature_Name":"transfer",
+    "Call_Signature_Signature":"transfer(address,uint256)",
+    "Call_Signature_Type":"false",
+    "Call_Signature_SignatureHash":"a9059cbb"
+  }
+];
