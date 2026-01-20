@@ -2,7 +2,7 @@
 // more files in
 //   bitquery-blockchain-dataset/
 // ├── tron/
-module.exports = [
+
   {
     "Block_Number":78861100,
     "Block_Time":1767246213,
@@ -48,4 +48,3 @@ module.exports = [
     "Call_Signature_Type":"false",
     "Call_Signature_SignatureHash":"a9059cbb"
   }
-];
