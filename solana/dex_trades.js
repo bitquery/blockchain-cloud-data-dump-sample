@@ -1,3 +1,4 @@
+// This is a data sample for Solana dextrades provided via cloud
 // https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/solana/dex_trades/390740000_390740049.parquet
 /* More files in S3 under:
 bitquery-blockchain-dataset/solana/dex_trades/
