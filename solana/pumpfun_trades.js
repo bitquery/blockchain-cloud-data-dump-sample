@@ -1,3 +1,12 @@
+// more files in s3 available, file links below
+// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/solana/dex_trades/pumpfun/390740000_390740049.parquet
+// ├── solana/
+// │   ├── dex_trades/
+// │   │   ├── pumpfun/
+// │   │   │   ├── 390740000_390740049.parquet
+// │   │   │   ├── 390740050_390740099.parquet
+// │   │   │   ├── 390740100_390740149.parquet
+// │   │   │   └── 390740150_390740199.parquet
 module.exports = [
   {
     "Block_Date":1767312000000,
