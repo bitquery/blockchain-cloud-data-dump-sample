@@ -1,3 +1,13 @@
+// You can find more samples at
+// │   ├── https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/matic/polymarket/
+// │   │   ├── PredictionSettlements/
+// │   │   │   ├── 85230000_85230049.parquet
+// │   │   │   ├── 85230050_85230099.parquet
+// │   │   │   ├── 85230100_85230149.parquet
+// │   │   │   ├── 85230150_85230199.parquet
+// │   │   │   ├── 85230200_85230249.parquet
+// │   │   │   ├── 85230250_85230299.parquet
+// │   │   │   └── 85230300_85230349.parquet
 module.exports = [
   {
     "Block_Number":85230000,
