@@ -1,3 +1,13 @@
+// You can find more samples at
+// │   ├── https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/matic/polymarket/
+// │   │   └── prediction_trades/
+// │   │       ├── 84735000_84735049.parquet
+// │   │       ├── 84735050_84735099.parquet
+// │   │       ├── 84735100_84735149.parquet
+// │   │       ├── 84735150_84735199.parquet
+// │   │       ├── 84735200_84735249.parquet
+// │   │       ├── 84735250_84735299.parquet
+// │   │       └── 84735300_84735349.parquet
 module.exports = [
   {
     "Block_Number":84735000,
