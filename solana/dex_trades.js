@@ -1,7 +1,19 @@
 // This is a data sample for Solana dextrades provided via cloud
 // https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/solana/dex_trades/390740000_390740049.parquet
 /* More files in S3 under:
-bitquery-blockchain-dataset/solana/dex_trades/
+bitquery-blockchain-dataset/solana/
+├── dex_trades/
+    │   ├── 390740000_390740049.parquet
+    │   ├── 390740050_390740099.parquet
+    │   ├── 390740100_390740149.parquet
+    │   ├── 390740150_390740199.parquet
+    │   ├── 390740200_390740249.parquet
+    │   ├── 390740250_390740299.parquet
+    │   ├── 390740300_390740349.parquet
+    │   ├── 390740350_390740399.parquet
+    │   ├── 390740400_390740449.parquet
+    │   └── 390740450_390740499.parquet
+
 */
 
 module.exports = [
