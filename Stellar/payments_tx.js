@@ -1,0 +1,55 @@
+//  S3 url: https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/stellar/payments_tx/55080300_55080349.parquet
+// ├── payments_tx/
+// │   │   ├── 55080300_55080349.parquet
+// │   │   ├── 55080350_55080399.parquet
+// │   │   └── 55080400_55080449.parquet
+module.exports = [
+  {
+    "block":55080300,
+    "currency_from_address":"-",
+    "source_currency_id":417896,
+    "currency_from_name":"Lumen",
+    "currency_from_symbol":"XLM",
+    "currency_from_tokenType":"-",
+    "currency_from_tokenId":"",
+    "currency_from_decimals":7,
+    "currency_to_address":"-",
+    "currency_id":417896,
+    "currency_to_name":"Lumen",
+    "currency_to_symbol":"XLM",
+    "currency_to_tokenType":"-",
+    "currency_to_decimals":7,
+    "currency_to_tokenId":"",
+    "tx_date":1735689600000,
+    "issuer_from":"",
+    "issuer_from_annotation":"",
+    "issuer_to":"",
+    "issuer_to_annotation":"",
+    "operation_index":0,
+    "op_index":0,
+    "operation":"path_payment_strict_receive",
+    "op_source_account":"GCGCXB2XDMVOHR623DZQQFGPL3RE57CPLLJ3VEZYRV4Q3M27TMJ2STDY",
+    "operation_name":"path_payment_strict_receive",
+    "op_source_address":"GCGCXB2XDMVOHR623DZQQFGPL3RE57CPLLJ3VEZYRV4Q3M27TMJ2STDY",
+    "op_source_annotation":"",
+    "path":"[{\"asset_code\"=>\"YBX\", \"asset_type\"=>\"credit_alphanum4\", \"asset_issuer\"=>\"GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX\"}, {\"asset_code\"=>\"AQUA\", \"asset_type\"=>\"credit_alphanum4\", \"asset_issuer\"=>\"GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA\"}, {\"asset_code\"=>\"ZBH\", \"asset_type\"=>\"credit_alphanum4\", \"asset_issuer\"=>\"GDZZEJPAY2M4BU5EZ3H2V3HPNYHQUQLUUHKR4OQAM2RM453FRDZUOZJF\"}, {\"asset_code\"=>\"FOAT\", \"asset_type\"=>\"credit_alphanum4\", \"asset_issuer\"=>\"GDZZEJPAY2M4BU5EZ3H2V3HPNYHQUQLUUHKR4OQAM2RM453FRDZUOZJF\"}, {\"asset_code\"=>\"AQUA\", \"asset_type\"=>\"credit_alphanum4\", \"asset_issuer\"=>\"GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA\"}]",
+    "receiver":"GCGCXB2XDMVOHR623DZQQFGPL3RE57CPLLJ3VEZYRV4Q3M27TMJ2STDY",
+    "receiver_annotation":"",
+    "sender":"GCGCXB2XDMVOHR623DZQQFGPL3RE57CPLLJ3VEZYRV4Q3M27TMJ2STDY",
+    "sender_annotation":"",
+    "success":0,
+    "tx_time":1735700065,
+    "tx_hash":"4353acd8d4915be340e908edcc2aeb5f30e7c9eb2c2be65babb28f46f292efab",
+    "tx_hash_bin":"4353acd8d4915be340e908edcc2aeb5f30e7c9eb2c2be65babb28f46f292efab",
+    "tx_index_raw":126,
+    "tx_sender_raw":"GCGCXB2XDMVOHR623DZQQFGPL3RE57CPLLJ3VEZYRV4Q3M27TMJ2STDY",
+    "transaction_index":126,
+    "transaction_sender":"GCGCXB2XDMVOHR623DZQQFGPL3RE57CPLLJ3VEZYRV4Q3M27TMJ2STDY",
+    "amount_to":"29377351\/10000000",
+    "amount_from":"0\/10000000",
+    "credited_to_value":"0\/10000000",
+    "debited_from_value":"0\/10000000",
+    "max_value_from":"29377351\/10000000",
+    "min_value_to":"0\/10000000"
+  }
+];
