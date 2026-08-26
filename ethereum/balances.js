@@ -5,7 +5,7 @@ bitquery-blockchain-dataset/
     └── balances/
         ├── 2025-01-01.parquet
         ├── 2025-01-02.parquet
-        └── ...
+    
 */
 // Daily balance SNAPSHOT (levels), not deltas -- contrast with balance_updates.
 // Covers only accounts whose balance changed that day.
