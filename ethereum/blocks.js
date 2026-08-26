@@ -1,15 +1,19 @@
- // S3 url: https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/ethereum/blocks/24053500_24053549.parquet
-    //     ├── 24053500_24053549.parquet
-    // │   ├── 24053550_24053599.parquet
-    // │   ├── 24053600_24053649.parquet
-    // │   ├── 24053650_24053699.parquet
-    // │   ├── 24053700_24053749.parquet
-    // │   ├── 24053750_24053799.parquet
-    // │   ├── 24053800_24053849.parquet
-    // │   ├── 24053850_24053899.parquet
-    // │   ├── 24053900_24053949.parquet
-    // │   └── 24053950_24053999.parquet
-
+// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/ethereum/blocks/24053500_24053549.parquet
+/* More files in S3
+bitquery-blockchain-dataset/
+└── ethereum/
+    ├── blocks/
+    │   ├── 24053500_24053549.parquet
+    │   ├── 24053550_24053599.parquet
+    │   ├── 24053600_24053649.parquet
+    │   ├── 24053650_24053699.parquet
+    │   ├── 24053700_24053749.parquet
+    │   ├── 24053750_24053799.parquet
+    │   ├── 24053800_24053849.parquet
+    │   ├── 24053850_24053899.parquet
+    │   ├── 24053900_24053949.parquet
+    │   └── 24053950_24053999.parquet
+*/
 [
   {
     "Block_BaseFee":"0.000000000024022089",
