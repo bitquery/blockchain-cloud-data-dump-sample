@@ -25,7 +25,6 @@ Events in those 73 seconds:
 | Oracle updates | 24 | [`oracle_updates.js`](oracle_updates.js) |
 | Core writer actions | 10 | [`core_writer_actions.js`](core_writer_actions.js) |
 | TWAP statuses | 3 | [`twap_statuses.js`](twap_statuses.js) |
-| Block headers | 1,000 | [`blocks.js`](blocks.js) |
 
 **233,817 events in 73 seconds** — about 3,200 events/second. Extrapolated from this
 slice, a full day of HyperCore is on the order of tens of GB. Blocks
