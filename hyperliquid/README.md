@@ -26,10 +26,6 @@ Events in those 73 seconds:
 | Core writer actions | 10 | [`core_writer_actions.js`](core_writer_actions.js) |
 | TWAP statuses | 3 | [`twap_statuses.js`](twap_statuses.js) |
 
-**233,817 events in 73 seconds** — about 3,200 events/second. Extrapolated from this
-slice, a full day of HyperCore is on the order of tens of GB. Blocks
-land about every 73 ms.
-
 Each `.js` file exports the first N records of its dataset via `module.exports`, with
 `Block_Number` and `Block_Time` prepended so records stand alone.
 
