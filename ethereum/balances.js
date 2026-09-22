@@ -1,12 +1,5 @@
-// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/ethereum/balances/2025-01-01.parquet
-/* More files in S3
-bitquery-blockchain-dataset/
-└── ethereum/
-    └── balances/
-        ├── 2025-01-01.parquet
-        ├── 2025-01-02.parquet
+// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/ethereum/balances/2026-09-20_26015000_26015099.parquet
     
-*/
 // Daily balance SNAPSHOT (levels), not deltas -- contrast with balance_updates.
 // Covers only accounts whose balance changed that day.
 // Balance_Amount is a decimal STRING; casting to float loses 18-decimal precision.
