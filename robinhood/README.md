@@ -27,6 +27,27 @@ Records in that 50-block range:
 Each `.js` file exports one representative record so the field names and value shapes
 stand alone.
 
+## Pons — the launchpad slice
+
+Pons is Robinhood Chain's bonding-curve launchpad, and the third busiest venue on the chain
+behind Uniswap v4 and v3. Two extra files carry it, pre-filtered so you do not have to scan
+the chain-wide tables to find it.
+
+| Dataset | Records | File | Filtered from |
+|---|---:|---|---|
+| Pons trades | 375 | [`pons_trades.js`](pons_trades.js) | `dex_trades` where `Trade_Dex_ProtocolName = 'pons_v2'` |
+| Pons launches and graduations | 16 | [`pons_launches_graduations.js`](pons_launches_graduations.js) | `events` from the Pons factory `0x7ed598bcef8bd9edd8c97a195c6d13f40801ec7e` |
+
+Both come from blocks `68914550` – `68914599`, a range chosen because it holds a whole token
+lifecycle: 8 `TokenLaunched`, 2 `CurveCompleted`, 2 `PoolGraduated`, and the 375 curve trades
+around them. The schemas are identical to `dex_trades` and `events`, so a job written against
+either reads these without changes.
+
+A token's life shows up as `TokenLaunched` → curve trades → `CurveCompleted` →
+`PoolGraduated`. `TokenLaunched` carries `graduationThreshold`, the quote amount the curve
+must reach, so progress to graduation is an exact figure rather than an inference. Roughly
+one launch in sixty reaches it.
+
 ## Object layout
 
 ```
@@ -36,6 +57,17 @@ bitquery-blockchain-dataset/robinhood/
 ├── balances/
 ├── events/
 └── calls/
+        ├── <start_block>_<end_block>.parquet
+        └── ...
+```
+
+The Pons files sit under the `datashare/` prefix the per-protocol datasets use, not
+alongside the chain-wide tables:
+
+```
+bitquery-blockchain-dataset/datashare/robinhood/pons/
+├── trades/
+└── launches_graduations/
         ├── <start_block>_<end_block>.parquet
         └── ...
 ```
