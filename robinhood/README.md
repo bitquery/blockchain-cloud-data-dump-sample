@@ -36,12 +36,18 @@ the chain-wide tables to find it.
 | Dataset | Records | File | Filtered from |
 |---|---:|---|---|
 | Pons trades | 375 | [`pons_trades.js`](pons_trades.js) | `dex_trades` where `Trade_Dex_ProtocolName = 'pons_v2'` |
+| Pons token creations | 8 | [`pons_token_creations.js`](pons_token_creations.js) | `calls` where `Call_Create`, joined to the launch event, the token's metadata and its first mint |
 | Pons launches and graduations | 16 | [`pons_launches_graduations.js`](pons_launches_graduations.js) | `events` from the Pons factory `0x7ed598bcef8bd9edd8c97a195c6d13f40801ec7e` |
 
 Both come from blocks `68914550` – `68914599`, a range chosen because it holds a whole token
 lifecycle: 8 `TokenLaunched`, 2 `CurveCompleted`, 2 `PoolGraduated`, and the 375 curve trades
 around them. The schemas are identical to `dex_trades` and `events`, so a job written against
 either reads these without changes.
+
+`pons_token_creations` carries what the token is: name, symbol, decimals, initial supply, the
+wallet that deployed it, and the graduation threshold set at launch. Names and symbols repeat
+heavily here — in the 50 blocks sampled, two of the eight tokens are both called Super Inu
+with the symbol `SI` — so join on the token address and never on the symbol.
 
 A token's life shows up as `TokenLaunched` → curve trades → `CurveCompleted` →
 `PoolGraduated`. `TokenLaunched` carries `graduationThreshold`, the quote amount the curve
@@ -67,6 +73,7 @@ alongside the chain-wide tables:
 ```
 bitquery-blockchain-dataset/datashare/robinhood/pons/
 ├── trades/
+├── token_creations/
 └── launches_graduations/
         ├── <start_block>_<end_block>.parquet
         └── ...
