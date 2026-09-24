@@ -56,14 +56,20 @@ bitquery-blockchain-dataset/robinhood/
 ├── transfers/
 ├── balances/
 ├── events/
-├── calls/
-│       ├── <start_block>_<end_block>.parquet
-│       └── ...
-└── pons/
-    ├── trades/
-    └── launches_graduations/
-            ├── <start_block>_<end_block>.parquet
-            └── ...
+└── calls/
+        ├── <start_block>_<end_block>.parquet
+        └── ...
+```
+
+The Pons files sit under the `datashare/` prefix the per-protocol datasets use, not
+alongside the chain-wide tables:
+
+```
+bitquery-blockchain-dataset/datashare/robinhood/pons/
+├── trades/
+└── launches_graduations/
+        ├── <start_block>_<end_block>.parquet
+        └── ...
 ```
 
 ## Field notes worth knowing

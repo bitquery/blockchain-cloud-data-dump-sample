@@ -1,7 +1,7 @@
-// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/robinhood/pons/launches_graduations/68914550_68914599.parquet
+// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/datashare/robinhood/pons/launches_graduations/68914550_68914599.parquet
 /* More files in S3
 bitquery-blockchain-dataset/
-└── robinhood/pons/launches_graduations/
+└── datashare/robinhood/pons/launches_graduations/
     ├── 68914550_68914599.parquet
     └── ...
 */
