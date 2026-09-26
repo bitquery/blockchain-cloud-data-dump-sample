@@ -11,7 +11,7 @@ what you get in a full export.
 |---|---|
 | Blocks | `1075858000` – `1075858999` (1,000 consecutive blocks) |
 | Wall-clock span | ~73.2 seconds of live HyperCore |
-| Format | Parquet (Snappy), one file per 200-block range |
+| Format | Parquet (ZSTD), one file per 200-block range |
 | Datasets | 7 event tables, joined on `Block_Number` |
 
 Events in those 73 seconds:
