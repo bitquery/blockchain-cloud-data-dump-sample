@@ -11,7 +11,7 @@ Each file also mentions the S3 bucket link for you to test end-to-end integratio
 | [bitcoin](bitcoin/) | blocks, transactions, inputs, outputs, omni transactions/transfers |
 | [bsc](bsc/) | blocks, transactions, transfers, events, dex trades, miner rewards |
 | [ethereum](ethereum/) | blocks, transactions, transfers, events, calls, balances, dex trades, miner rewards, uncle blocks |
-| [hyperliquid](hyperliquid/) | fills, order statuses, L4 book diffs, oracle updates, TWAP statuses, misc events, core writer actions |
+| [hyperliquid](hyperliquid/) | trades, liquidations, TWAPs, order updates, L4 book updates, price updates, funding |
 | [polymarket](polymarket/) | prediction trades, prediction settlements |
 | [ripple](ripple/) | transactions, transfers, payments, offers, escrows, checks, balances |
 | [robinhood](robinhood/) | dex trades, transfers, balances, events, calls |
