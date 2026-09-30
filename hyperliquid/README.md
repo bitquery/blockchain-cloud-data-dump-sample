@@ -14,15 +14,13 @@ tables come from the slice below.
 | Blocks | `1075858000` – `1075858999` (1,000 consecutive blocks) |
 | Wall-clock span | ~73.2 seconds of live HyperCore |
 | Format | Parquet (ZSTD), one file per 200-block range |
-| Datasets | 4 event tables, joined on `Block_Number` |
+| Datasets | 2 event tables, joined on `Block_Number` |
 
 Events in those 73 seconds:
 
 | Dataset | Records | File |
 |---|---:|---|
 | Fills | 1,552 | [`fills.js`](fills.js) |
-| Misc events | 32 | [`misc_events.js`](misc_events.js) |
-| Core writer actions | 10 | [`core_writer_actions.js`](core_writer_actions.js) |
 | TWAP statuses | 3 | [`twap_statuses.js`](twap_statuses.js) |
 
 Each `.js` file exports the first N records of its dataset via `module.exports`, with
@@ -39,6 +37,17 @@ of those rows and links its Parquet file.
 | Order updates | 100 | 51 | [`1078000000_1078000000.parquet`](https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/hyperliquid/order_updates/1078000000_1078000000.parquet) | [`order_updates.js`](order_updates.js) |
 | Book updates (L4) | 100 | 36 | [`1078000000_1078000001.parquet`](https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/hyperliquid/book_updates/1078000000_1078000001.parquet) | [`book_updates.js`](book_updates.js) |
 | Price updates | 100 | 20 | [`1078000012_1078000012.parquet`](https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/hyperliquid/price_updates/1078000012_1078000012.parquet) | [`price_updates.js`](price_updates.js) |
+
+### Funding
+
+HyperCore settles funding once an hour. `perp_fundings` has one row per account and market at
+each settlement, with the hourly rate, the signed position size and the USDC paid or received
+(`Funding_Amount` is negative when the account paid). The sample is the first 100 rows of the
+settlement in block 1165214467 on 29 September 2026, which held 411,880 rows across 327 markets.
+
+| Table | Rows in sample | Columns | Parquet | Records |
+|---|---:|---:|---|---|
+| Perp fundings | 100 | 23 | [`1165214467_1165214467.parquet`](https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/hyperliquid/perp_fundings/1165214467_1165214467.parquet) | [`perp_fundings.js`](perp_fundings.js) |
 
 ## Why this is not the same as Hyperliquid's own archive
 
@@ -84,9 +93,8 @@ bitquery-blockchain-dataset/hyperliquid/
 ├── order_updates/
 ├── book_updates/
 ├── price_updates/
-├── misc_events/
-├── twap_statuses/
-└── core_writer_actions/
+├── perp_fundings/
+└── twap_statuses/
         ├── <start_block>_<end_block>.parquet
         └── ...
 ```
@@ -104,7 +112,7 @@ quiet ranges are a few KB, busy ranges a few MB. Every row carries `Block_Number
   bytes on both sides of a TWAP trade. Key trades on `(BlockNumber, Coin, Tid)`.
 - **`StartPosition` is signed** position before the fill (negative = short), not money.
   Realized PnL is `ClosedPnl`.
-- **`Extra`** (fills, TWAP, misc event and CoreWriter samples) is a forward-compatibility map. A non-empty `Extra` means the node emitted
+- **`Extra`** (fills and TWAP samples) is a forward-compatibility map. A non-empty `Extra` means the node emitted
   a field not yet modelled — nothing is silently dropped.
 - **Address and hash fields** (`User`, `Hash`, `Cloid`, `Builder`) are rendered as
   `0x`-prefixed hex strings.
