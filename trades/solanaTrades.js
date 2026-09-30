@@ -1,0 +1,100 @@
+// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/datashare/solana/all_dex/dex_trades/423000000_424000000.parquet
+// more files in
+//   bitquery-blockchain-dataset/
+// ├── datashare/
+// │   ├── solana/
+// │   │   ├── all_dex/
+// │   │   │   ├── dex_trades/
+// │   │   │   │   └── 423000000_424000000.parquet
+// files are named <start_slot>_<end_slot>.parquet; split by slot range with no row cap; the free sample holds 622 swaps from 2026-06-01, at most 20 per DEX program
+// Solana: one row per swap, with buy and sell sides, venue identifiers, token metadata and USD pricing.
+// Trade_Buy_Amount and Trade_Sell_Amount are decimal strings; casting to float loses precision.
+
+module.exports = [
+    {
+      "Block_Date": 1780272000000,
+      "Block_Height": 401563297,
+      "Block_Slot": 423478907,
+      "Block_Time": 1780252200,
+      "Instruction_CallPath": [
+        1
+      ],
+      "Instruction_ExternalSeqNumber": 2,
+      "Instruction_Index": 5,
+      "Instruction_InternalSeqNumber": 4,
+      "Instruction_Program_Address": "BSwp6bEBihVLdqJRKGgzjcGLHkcTuzmSo1TQkHepzH8p",
+      "Instruction_Program_Method": "swap",
+      "Instruction_Program_Name": "bonkswap",
+      "Trade_Buy_Account_Address": "34nc9do8EWQpfFqtkJ4q3MAUAnde31EiNCrXytrfEYpS",
+      "Trade_Buy_Account_Token_Owner": "UUAhspPgUdGuXUnokmxERH1VvNGNh1ouN3mfcbfV8yd",
+      "Trade_Buy_Amount": "214.689587",
+      "Trade_Buy_AmountInUSD": 15.198082263029917,
+      "Trade_Buy_Currency_CollectionAddress": "",
+      "Trade_Buy_Currency_Decimals": 6,
+      "Trade_Buy_Currency_EditionNonce": 255,
+      "Trade_Buy_Currency_Fungible": "true",
+      "Trade_Buy_Currency_MetadataAddress": "BHMfPXBpZZnG62EsgUxQHrcEoraFyBmGeJpY8Qxbfqic",
+      "Trade_Buy_Currency_MintAddress": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "Trade_Buy_Currency_Name": "USELESS COIN",
+      "Trade_Buy_Currency_ProgramAddress": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "Trade_Buy_Currency_SellerFeeBasisPoints": 0,
+      "Trade_Buy_Currency_Symbol": "USELESS",
+      "Trade_Buy_Currency_TokenCreator_Address": [],
+      "Trade_Buy_Currency_TokenStandard": "Fungible",
+      "Trade_Buy_Currency_Uri": "https://ipfs.io/ipfs/bafkreibwvvvj5rpan4rpb7v3lx7mfve5qfn7lrfsqdrqehpmoyg5fyclsy",
+      "Trade_Buy_Currency_UpdateAuthority": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+      "Trade_Buy_Currency_VerifiedCollection": "false",
+      "Trade_Buy_Order_Account": "",
+      "Trade_Buy_Order_BuySide": "false",
+      "Trade_Buy_Order_LimitAmount": 0,
+      "Trade_Buy_Order_LimitPrice": 0,
+      "Trade_Buy_Order_Mint": "",
+      "Trade_Buy_Order_OrderId": "",
+      "Trade_Buy_Order_Owner": "",
+      "Trade_Buy_Order_Payer": "",
+      "Trade_Buy_Price": 0.07128708110095718,
+      "Trade_Buy_PriceInUSD": 0.07117395038044234,
+      "Trade_Dex_ProgramAddress": "BSwp6bEBihVLdqJRKGgzjcGLHkcTuzmSo1TQkHepzH8p",
+      "Trade_Dex_ProtocolFamily": "Bonkswap",
+      "Trade_Dex_ProtocolName": "bonkswap",
+      "Trade_Index": 1,
+      "Trade_Market_MarketAddress": "D6aKTH2qjVwb1YUjFxN456ZFX2ZkKFtZPNs8wzikjTqn",
+      "Trade_PriceAsymmetry": 0.0026977722234806665,
+      "Trade_Sell_Account_Address": "AipCuncPcJZzCzW1ko5dHoSTaAv6HyxncSo5AiqA8GZm",
+      "Trade_Sell_Account_Token_Owner": "UUAhspPgUdGuXUnokmxERH1VvNGNh1ouN3mfcbfV8yd",
+      "Trade_Sell_Amount": "15.304594",
+      "Trade_Sell_AmountInUSD": 15.280306012335657,
+      "Trade_Sell_Currency_CollectionAddress": "",
+      "Trade_Sell_Currency_Decimals": 6,
+      "Trade_Sell_Currency_EditionNonce": 255,
+      "Trade_Sell_Currency_Fungible": "true",
+      "Trade_Sell_Currency_MetadataAddress": "HEffotZXTZuTs8t8Q9qiirMcnFvJFdB1bhBE6KwMibbe",
+      "Trade_Sell_Currency_MintAddress": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+      "Trade_Sell_Currency_Name": "World Liberty Financial USD",
+      "Trade_Sell_Currency_ProgramAddress": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "Trade_Sell_Currency_SellerFeeBasisPoints": 0,
+      "Trade_Sell_Currency_Symbol": "USD1",
+      "Trade_Sell_Currency_TokenCreator_Address": [],
+      "Trade_Sell_Currency_TokenStandard": "Fungible",
+      "Trade_Sell_Currency_Uri": "https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json",
+      "Trade_Sell_Currency_UpdateAuthority": "AU33LXZPnMaf7kH7Q9RB28c3dTKMatrXQzyDwE1nywdQ",
+      "Trade_Sell_Currency_VerifiedCollection": "false",
+      "Trade_Sell_Order_Account": "",
+      "Trade_Sell_Order_BuySide": "false",
+      "Trade_Sell_Order_LimitAmount": 0,
+      "Trade_Sell_Order_LimitPrice": 0,
+      "Trade_Sell_Order_Mint": "",
+      "Trade_Sell_Order_OrderId": "",
+      "Trade_Sell_Order_Owner": "",
+      "Trade_Sell_Order_Payer": "",
+      "Trade_Sell_Price": 14.027787146787428,
+      "Trade_Sell_PriceInUSD": 0.9930405382220474,
+      "Transaction_Fee": "0.000006684",
+      "Transaction_FeeInUSD": 0.0005498815916748046,
+      "Transaction_FeePayer": "UUAhspPgUdGuXUnokmxERH1VvNGNh1ouN3mfcbfV8yd",
+      "Transaction_Index": 987,
+      "Transaction_Result_Success": "true",
+      "Transaction_Signature": "5SDHvbmSSPo1UqrMjExxFqpquTBMFLBFf5CYmsKCGe5mZaAfmn6BW7BBf8AZK5DtkkyqUHpVJk1iyYHL1NnFqQcQ",
+      "Transaction_Signer": "UUAhspPgUdGuXUnokmxERH1VvNGNh1ouN3mfcbfV8yd"
+    }
+]
