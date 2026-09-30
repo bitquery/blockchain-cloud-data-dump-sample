@@ -28,8 +28,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "113.0",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -42,8 +41,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "113.0",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -56,8 +54,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "113.0",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -70,8 +67,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "501.265",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -84,8 +80,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "501.259",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -98,8 +93,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "501.24",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -112,8 +106,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "501.234",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -126,8 +119,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "501.228",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -140,8 +132,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "188.022",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -154,8 +145,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "188.002",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -168,8 +158,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "187.987",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -182,8 +171,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "187.973",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -196,8 +184,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "7.19",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -210,8 +197,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "59.41",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -224,8 +210,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "1.18841",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -238,8 +223,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "9.0",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -252,8 +236,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "9.104",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -266,8 +249,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "16.859",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -280,8 +262,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "0.2756",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -294,8 +275,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "298.57",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -308,8 +288,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "12.01",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -322,8 +301,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "587.33",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -336,8 +314,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "16.04",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -350,8 +327,7 @@ module.exports = [
     "Kind": "new",
     "Sz": "1.5578",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   },
   {
     "Block_Number": 1075858794,
@@ -364,7 +340,6 @@ module.exports = [
     "Kind": "new",
     "Sz": "1.929",
     "OrigSz": null,
-    "NewSz": null,
-    "Extra": {}
+    "NewSz": null
   }
 ];
