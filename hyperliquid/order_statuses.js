@@ -38,11 +38,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f5f65a8",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -65,11 +62,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f5f65a9",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -92,11 +86,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f5f65aa",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -119,11 +110,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f5f65ab",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -146,11 +134,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f5f65ac",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -173,11 +158,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f207704",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -200,11 +182,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f207705",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -227,11 +206,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f207706",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -254,11 +230,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f1deb95",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -281,11 +254,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f1deb96",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -308,11 +278,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f1deb97",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -335,11 +302,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f1f5fbb",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -362,11 +326,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f1f5fbc",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -389,11 +350,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0xf8d3e761667b9df8180e825365e31511",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -416,11 +374,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0xaa37d147da92e470cc96f9088a411512",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -443,11 +398,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x8b84be1210846d54ad63cbccb8c51513",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -470,11 +422,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x8ec95ba19c9908f55e5cbe24874c1514",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -497,11 +446,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f174d62",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -524,11 +470,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f200aa5",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -551,11 +494,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f200aa6",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": "0x6c76f91ece9693126df00440204d6a010a0101046999b1e4103fa4718d9a6cfd",
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -578,11 +518,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f200aa7",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": "0x1b19df496ae5a66a1c930440204d6a010a01022f05e8c53cbee28a9c29e98054",
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -605,11 +542,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f200aa8",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": "0xc9bcc5740734b9c1cb360440204d6a010a010359a237d8936d8570c6c63893ac",
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -632,11 +566,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f200aa9",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -659,11 +590,8 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f200aaa",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   },
   {
     "Block_Number": 1075858794,
@@ -686,10 +614,7 @@ module.exports = [
     "Order_ReduceOnly": false,
     "Order_Cloid": "0x00000000000000000000019f6f200aab",
     "Order_Tif": "Alo",
-    "Order_Children": [],
-    "Order_Extra": {},
     "Hash": null,
-    "Builder": null,
-    "Extra": {}
+    "Builder": null
   }
 ];

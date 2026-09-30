@@ -53,7 +53,7 @@ computable directly.
 
 **Full order lifecycle, including what never traded.** `order_statuses.js` covers
 `open`, `canceled`, `filled`, `triggered` and the various `*Rejected` states, with
-`Tif`, `ReduceOnly`, trigger conditions and TP/SL child brackets. Rejects and cancels
+`Tif`, `ReduceOnly`, trigger conditions and position TP/SL flags. Rejects and cancels
 are invisible in any trades-only dataset, and they are most of the signal in
 microstructure work.
 
@@ -93,7 +93,7 @@ quiet ranges are a few KB, busy ranges a few MB. Every row carries `Block_Number
   bytes on both sides of a TWAP trade. Key trades on `(BlockNumber, Coin, Tid)`.
 - **`StartPosition` is signed** position before the fill (negative = short), not money.
   Realized PnL is `ClosedPnl`.
-- **`Extra`** is a forward-compatibility map. A non-empty `Extra` means the node emitted
+- **`Extra`** (fills, TWAP, misc event and CoreWriter samples) is a forward-compatibility map. A non-empty `Extra` means the node emitted
   a field not yet modelled — nothing is silently dropped.
 - **Address and hash fields** (`User`, `Hash`, `Cloid`, `Builder`) are rendered as
   `0x`-prefixed hex strings.
